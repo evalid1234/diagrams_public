@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T16:00:39.852Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="lBZmSmXMdcPpH9ZjEUNr" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T16:01:15.120Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="6u7fNygE8TnXsrScCc9b" version="22.0.8" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1434" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,8 +64,17 @@
         <mxCell id="5cGKDr1xZVWZsfU2q4J_-17" value="client2" style="whiteSpace=wrap;html=1;aspect=fixed;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;perimeter=ellipsePerimeter;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
           <mxGeometry x="130" y="545" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5cGKDr1xZVWZsfU2q4J_-27" value="new connection made " style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cGKDr1xZVWZsfU2q4J_-19" target="5cGKDr1xZVWZsfU2q4J_-17">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-27" value="new connection made " style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="5cGKDr1xZVWZsfU2q4J_-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="619.2935931288071" y="574.0132034355963" as="sourcePoint" />
+            <mxPoint x="210.00427124746213" y="651.0842712474621" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="672" y="574" />
+              <mxPoint x="672" y="658" />
+              <mxPoint x="210" y="658" />
+              <mxPoint x="210" y="621" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="5cGKDr1xZVWZsfU2q4J_-19" value="client2 process/connection" style="rounded=0;whiteSpace=wrap;html=1;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;aspect=fixed;perimeter=ellipsePerimeter;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" vertex="1" parent="1">
           <mxGeometry x="590" y="485" width="120" height="60" as="geometry" />
@@ -99,11 +108,6 @@
               <mxPoint x="365" y="438" />
               <mxPoint x="140" y="438" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5cGKDr1xZVWZsfU2q4J_-29" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5cGKDr1xZVWZsfU2q4J_-28">
-          <mxGeometry x="0.3545" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5cGKDr1xZVWZsfU2q4J_-32" value="&lt;div&gt;after connection with new process, you may connect to a db&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
