@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T15:32:45.762Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="OOyRtb_ysVbZ3eSbLukO" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T16:00:39.852Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="lBZmSmXMdcPpH9ZjEUNr" version="22.0.8" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1434" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,10 +7,10 @@
         <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="postgre" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="80" width="710" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="5cGKDr1xZVWZsfU2q4J_-3" value="client program (text-based, web server etc..)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-3" value="client program (text-based, web server etc..)" style="whiteSpace=wrap;html=1;aspect=fixed;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;perimeter=ellipsePerimeter;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="40" y="100" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5cGKDr1xZVWZsfU2q4J_-1" value="postre server(manages the db files and access, does queries on files.)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-1" value="postre server(manages the db files and access, does queries on files.)" style="whiteSpace=wrap;html=1;aspect=fixed;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;perimeter=ellipsePerimeter;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="390" y="80" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="5cGKDr1xZVWZsfU2q4J_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.163;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="5cGKDr1xZVWZsfU2q4J_-3" target="5cGKDr1xZVWZsfU2q4J_-1">
@@ -32,7 +32,7 @@
         <mxCell id="5cGKDr1xZVWZsfU2q4J_-9" value="Is a client=&amp;gt;server architecture" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="245" y="118" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5cGKDr1xZVWZsfU2q4J_-10" value="client1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-10" value="client1" style="whiteSpace=wrap;html=1;aspect=fixed;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;perimeter=ellipsePerimeter;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
           <mxGeometry x="130" y="440" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5cGKDr1xZVWZsfU2q4J_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cGKDr1xZVWZsfU2q4J_-11" target="5cGKDr1xZVWZsfU2q4J_-14">
@@ -46,7 +46,7 @@
         <mxCell id="5cGKDr1xZVWZsfU2q4J_-20" value="forks process" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="5cGKDr1xZVWZsfU2q4J_-11" target="5cGKDr1xZVWZsfU2q4J_-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5cGKDr1xZVWZsfU2q4J_-11" value="server(supervisor process, always running)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-11" value="server(supervisor process, always running)" style="whiteSpace=wrap;html=1;aspect=fixed;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;perimeter=ellipsePerimeter;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" vertex="1" parent="1">
           <mxGeometry x="400" y="480" width="94" height="94" as="geometry" />
         </mxCell>
         <mxCell id="5cGKDr1xZVWZsfU2q4J_-12" value="connection request over tcp/ip" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.05;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5cGKDr1xZVWZsfU2q4J_-10" target="5cGKDr1xZVWZsfU2q4J_-11">
@@ -55,19 +55,19 @@
         <mxCell id="5cGKDr1xZVWZsfU2q4J_-13" value="connection handling " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="270" y="370" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5cGKDr1xZVWZsfU2q4J_-14" value="new process with client1 connection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-14" value="new process with client1 connection" style="rounded=0;whiteSpace=wrap;html=1;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;aspect=fixed;perimeter=ellipsePerimeter;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" vertex="1" parent="1">
           <mxGeometry x="600" y="393" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5cGKDr1xZVWZsfU2q4J_-18" value="conncection request over tcp/ip" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cGKDr1xZVWZsfU2q4J_-17" target="5cGKDr1xZVWZsfU2q4J_-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5cGKDr1xZVWZsfU2q4J_-17" value="client2" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-17" value="client2" style="whiteSpace=wrap;html=1;aspect=fixed;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;perimeter=ellipsePerimeter;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
           <mxGeometry x="130" y="545" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5cGKDr1xZVWZsfU2q4J_-27" value="new connection made " style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cGKDr1xZVWZsfU2q4J_-19" target="5cGKDr1xZVWZsfU2q4J_-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5cGKDr1xZVWZsfU2q4J_-19" value="client2 process/connection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-19" value="client2 process/connection" style="rounded=0;whiteSpace=wrap;html=1;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;aspect=fixed;perimeter=ellipsePerimeter;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" vertex="1" parent="1">
           <mxGeometry x="590" y="485" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5cGKDr1xZVWZsfU2q4J_-21" value="&lt;div&gt;db handling. the server process can handle multiple databases.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -79,13 +79,13 @@
         <mxCell id="5cGKDr1xZVWZsfU2q4J_-26" value="handles " style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="5cGKDr1xZVWZsfU2q4J_-22" target="5cGKDr1xZVWZsfU2q4J_-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5cGKDr1xZVWZsfU2q4J_-22" value="Server process" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-22" value="Server process" style="whiteSpace=wrap;html=1;aspect=fixed;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;perimeter=ellipsePerimeter;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" vertex="1" parent="1">
           <mxGeometry x="245" y="780" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5cGKDr1xZVWZsfU2q4J_-23" value="db1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-23" value="db1" style="rounded=0;whiteSpace=wrap;html=1;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;image=img/lib/clip_art/computers/Database_128x128.png;" vertex="1" parent="1">
           <mxGeometry x="450" y="750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5cGKDr1xZVWZsfU2q4J_-24" value="db2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-24" value="db2" style="rounded=0;whiteSpace=wrap;html=1;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;image=img/lib/clip_art/computers/Database_128x128.png;" vertex="1" parent="1">
           <mxGeometry x="450" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5cGKDr1xZVWZsfU2q4J_-28" value="new connection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.033;exitY=0.367;exitDx=0;exitDy=0;entryX=0.625;entryY=-0.062;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="5cGKDr1xZVWZsfU2q4J_-14">
@@ -112,10 +112,10 @@
         <mxCell id="5cGKDr1xZVWZsfU2q4J_-35" value="connect to a db" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="5cGKDr1xZVWZsfU2q4J_-33" target="5cGKDr1xZVWZsfU2q4J_-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5cGKDr1xZVWZsfU2q4J_-33" value="server connection " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-33" value="server connection " style="rounded=0;whiteSpace=wrap;html=1;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;aspect=fixed;perimeter=ellipsePerimeter;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" vertex="1" parent="1">
           <mxGeometry x="450" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5cGKDr1xZVWZsfU2q4J_-34" value="database " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-34" value="database " style="rounded=0;whiteSpace=wrap;html=1;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;image=img/lib/clip_art/computers/Database_128x128.png;" vertex="1" parent="1">
           <mxGeometry x="680" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5cGKDr1xZVWZsfU2q4J_-36" value="from this point, you can query against the db;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -126,20 +126,90 @@
             <mxPoint x="140" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5cGKDr1xZVWZsfU2q4J_-37" value="client1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-37" value="client1" style="rounded=0;whiteSpace=wrap;html=1;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;aspect=fixed;perimeter=ellipsePerimeter;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
           <mxGeometry y="1060" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5cGKDr1xZVWZsfU2q4J_-40" value="&lt;div&gt;forked connection&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="5cGKDr1xZVWZsfU2q4J_-39" target="5cGKDr1xZVWZsfU2q4J_-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5cGKDr1xZVWZsfU2q4J_-39" value="supervisor process/server " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-39" value="supervisor process/server " style="rounded=0;whiteSpace=wrap;html=1;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;aspect=fixed;perimeter=ellipsePerimeter;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" vertex="1" parent="1">
           <mxGeometry x="210" y="1010" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="5cGKDr1xZVWZsfU2q4J_-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1320" width="120" height="60" as="geometry" />
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5cGKDr1xZVWZsfU2q4J_-41" target="5cGKDr1xZVWZsfU2q4J_-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5cGKDr1xZVWZsfU2q4J_-42" value="Interfacing with prgorams (like java) " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="220" y="1178" width="220" height="30" as="geometry" />
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-66" value="sql query " style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5cGKDr1xZVWZsfU2q4J_-44">
+          <mxGeometry x="-0.2" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-41" value="Client program/server" style="rounded=0;whiteSpace=wrap;html=1;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;aspect=fixed;perimeter=ellipsePerimeter;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-42" value="&lt;div&gt;Interfacing with programs&lt;/div&gt;&lt;div&gt;(like java) &lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1200" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cGKDr1xZVWZsfU2q4J_-43" target="5cGKDr1xZVWZsfU2q4J_-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-47" value="changes sql to protocol lang" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5cGKDr1xZVWZsfU2q4J_-45">
+          <mxGeometry x="0.04" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-43" value="uses db driver for sql query" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-48" value="supervisor process/" style="rounded=0;whiteSpace=wrap;html=1;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;aspect=fixed;perimeter=ellipsePerimeter;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.025;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5cGKDr1xZVWZsfU2q4J_-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="328" y="1504" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-58" value="user request i/o to db" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5cGKDr1xZVWZsfU2q4J_-52">
+          <mxGeometry x="-0.2579" y="-6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-49" value="Server connection" style="rounded=0;whiteSpace=wrap;html=1;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;aspect=fixed;perimeter=ellipsePerimeter;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=-0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5cGKDr1xZVWZsfU2q4J_-48" target="5cGKDr1xZVWZsfU2q4J_-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-51" value="forks connection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5cGKDr1xZVWZsfU2q4J_-50">
+          <mxGeometry x="-0.1109" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-55" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5cGKDr1xZVWZsfU2q4J_-41" target="5cGKDr1xZVWZsfU2q4J_-49">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="420" y="1480" as="sourcePoint" />
+            <mxPoint x="520" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-56" value="connection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5cGKDr1xZVWZsfU2q4J_-55">
+          <mxGeometry x="-0.439" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-67" value="&lt;div&gt;i/o complete, data if needed&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5cGKDr1xZVWZsfU2q4J_-55">
+          <mxGeometry x="0.0181" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-60" value="&lt;br&gt;&lt;div&gt;i/o complete, return data if needed&lt;/div&gt;&lt;br&gt;" style="endArrow=classic;html=1;rounded=0;entryX=0.058;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.008;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="5cGKDr1xZVWZsfU2q4J_-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="325.96000000000004" y="1538.02" as="sourcePoint" />
+            <mxPoint x="485" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5cGKDr1xZVWZsfU2q4J_-70" value="db" style="shape=image;whiteSpace=wrap;html=1;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;image=img/lib/clip_art/computers/Database_128x128.png;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1490" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
